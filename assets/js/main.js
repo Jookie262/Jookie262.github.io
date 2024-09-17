@@ -272,7 +272,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
 		});
 		wow.init();
 
-		/*------------------------------------------------------
+	/*------------------------------------------------------
   	/  Preloader
   	/------------------------------------------------------*/
 		const svg = document.getElementById("preloaderSvg");
@@ -312,7 +312,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
 			svgText.classList.add("animate-stroke");
 		}
 
-		/*------------------------------------------------------
+	/*------------------------------------------------------
   	/  Services Hover BG
   	/------------------------------------------------------*/
 		function service_animation() {
@@ -376,7 +376,7 @@ Description: Gerold - Personal Portfolio HTML5 Template
 			active_bg.css({ left: leftOff - menuLeft + "px", width: width + "px" });
 		}
 
-		/*------------------------------------------------------
+	/*------------------------------------------------------
   	/  Funfact
   	/------------------------------------------------------*/
 		if ($(".odometer").length > 0) {
